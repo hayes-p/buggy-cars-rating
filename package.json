@@ -1,0 +1,30 @@
+{
+  "name": "buggy-cars-rating",
+  "version": "1.0.0",
+  "description": "Buggy Cars Rating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "for",
+    "Buggy",
+    "Cars",
+    "Rating"
+  ],
+  "author": "Patrick Hayes",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.17.4"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.17.3",
+    "@wdio/local-runner": "^7.17.4",
+    "@wdio/mocha-framework": "^7.17.3",
+    "@wdio/spec-reporter": "^7.17.3",
+    "chromedriver": "^99.0.0",
+    "wdio-chromedriver-service": "^7.2.8",
+    "wdio-wait-for": "^2.2.4"
+  }
+}
