@@ -47,4 +47,4 @@ class ModelPage extends Page {
   }
 }
 
-module.exports = new ModelPage;
+module.exports = new ModelPage();
