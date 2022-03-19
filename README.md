@@ -22,3 +22,8 @@ Run the command:
 Once installed run the command:
 
 ` $ npx wdio `
+
+## Reporting
+To generate a report at the command line enter:
+
+`$  allure generate allure-results --clean && allure open`
